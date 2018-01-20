@@ -9,14 +9,39 @@
       h1 {
         font-family: Verdana;
         color:white;
-        text-align: centre;
+        text-align: center;
+        background-color:rgba(15,13,85,0.5);
+            border-top-style: dotted;
+    border-style: dotted solid;
+        border-color:white;
+        border-width: 1.5px;
+        padding: 5px;
+        opacity:0.3;
+        }
+        h1:hover {
+        box-shadow: 7px 7px 5px rgba(0,0,0,0.6);
+        opacity:1;
+      }
+      div {
+      padding: 5px 15px;
+      margin: 3px 5px;
+      background-color:#94b3ce;
+      }
+      div:hover {
+    -moz-transform: rotate(180deg); /* Для Firefox */
+    -ms-transform: rotate(180deg); /* Для IE */
+    -webkit-transform: rotate(180deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(180deg); /* Для Opera */
+    transform: rotate(180deg);
+    transition-duration:15s;
+   }
       }
     </style>
   </head>
   <body>
 <h1>Hello world </h1>
 <h2>Goodbye world</h2>
-    <p>My first paragraph</p>
+    <div><p>My first paragraph</p></div>
     <a href="https://github.com/">Github - главная страница</a>
   </body>
 </html>
